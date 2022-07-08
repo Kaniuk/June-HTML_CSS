@@ -1,0 +1,52 @@
+.main {
+    background: green;
+}
+
+.contacts {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.contact {
+    background: black;
+    width: 350px;
+
+    margin: 25px 50px;
+    padding: 35px 15px;
+}
+
+p {
+    font-size: 25px;
+}
+
+p, h2 {
+    color: silver;
+}
+
+.photo {
+    margin: 0 auto;
+
+    background: gray;
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+}
+
+.description {
+    text-align: center;
+}
+
+.description p {
+    color: black;
+    font-size: 70px;
+
+    margin: 0;
+}
+
+.description h4 {
+    font-size: 50px;
+    font-weight: normal;
+
+    margin: 0;
+}
