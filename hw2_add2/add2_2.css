@@ -1,0 +1,36 @@
+.cards {
+    margin: 0 auto;
+    padding: 50px;
+    width: 850px;
+    background: dodgerblue;
+
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 15px;
+    column-gap: 15px;
+    justify-content: center;
+}
+
+.card {
+    background: lavender;
+    width: 400px;
+    height: 110px;
+    box-sizing: border-box;
+    padding: 15px;
+    border-radius: 5px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+}
+
+h3 {
+    margin: 0;
+    color: orange;
+}
+
+p {
+    font-size: 14px;
+    margin: 5px 0 0 0;
+}
