@@ -1,0 +1,60 @@
+.main {
+    margin: 0 auto;
+    width: 600px;
+    height: 1000px;
+    background: lightsteelblue;
+
+}
+
+.top {
+    margin: 0 auto;
+    width: 500px;
+    padding: 20px;
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.top_right {
+    display: flex;
+    column-gap: 10px;
+}
+
+.camera {
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    background: #060634;
+
+}
+
+.search, .menu {
+    width: 30px;
+    height: 30px;
+    background: dimgrey;
+}
+
+.middle {
+    background: #060634;
+    height: 300px;
+
+}
+
+.squares {
+    display: flex;
+    justify-content: space-between;
+
+    width: 400px;
+    margin: 0 auto;
+}
+
+.square {
+    width: 120px;
+    height: 120px;
+    background: indigo;
+    border-radius: 10px;
+
+    position: relative;
+    top: -60px;
+}

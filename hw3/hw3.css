@@ -26,8 +26,12 @@ button {
     padding: 15px 60px;
     font-size: 20px;
     border: 2px solid black;
-}
 
+    cursor: pointer;
+}
+button:hover {
+    background: lavender;
+}
 h1 {
     margin: 0;
 }
